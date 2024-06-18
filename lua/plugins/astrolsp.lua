@@ -15,6 +15,13 @@ return {
       inlay_hints = false, -- enable/disable inlay hints on start
       semantic_tokens = true, -- enable/disable semantic token highlighting
     },
+    handlers = {
+      emmet_language_server = function (_, _)
+        require('lspconfig').emmet_language_server.setup({
+          filetypes = { "css", "eruby", "html", "javascript", "javascriptreact", "less", "sass", "scss", "pug", "typescriptreact", "templ" },
+        })
+      end,
+    },
     -- customize lsp formatting options
     formatting = {
       -- control auto formatting on save
