@@ -2,7 +2,7 @@
 return {
   { "catppuccin/nvim", name = "catppuccin", priority = 1000, config = function (_, _)
     require("catppuccin").setup({
-      flavour = "latte"
+      flavour = "frappe"
     })
   end },
   {
