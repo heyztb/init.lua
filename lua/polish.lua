@@ -8,3 +8,9 @@ vim.filetype.add({
     templ = "templ"
   }
 })
+
+-- remap these keys for colemak dh, makes more sense to me
+-- j is on the top row, so it scrolls up
+-- k is on the bottom row, so it scrolls down
+vim.keymap.set('n', 'j', 'k')
+vim.keymap.set('n', 'k', 'j')
