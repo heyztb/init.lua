@@ -10,7 +10,10 @@ vim.filetype.add({
 })
 
 -- remap these keys for colemak dh, makes more sense to me
--- j is on the top row, so it scrolls up
--- k is on the bottom row, so it scrolls down
-vim.keymap.set('n', 'j', 'k')
-vim.keymap.set('n', 'k', 'j')
+vim.keymap.set('', 'n', 'h')
+vim.keymap.set('', 'e', 'j')
+vim.keymap.set('', 'i', 'k')
+vim.keymap.set('', 'o', 'l')
+vim.keymap.set('', 'l', 'i')
+vim.keymap.set('', 'h', 'n')
+vim.keymap.set('', 'h', 'N')
