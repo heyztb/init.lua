@@ -8,12 +8,3 @@ vim.filetype.add({
     templ = "templ"
   }
 })
-
--- remap these keys for colemak dh, makes more sense to me
-vim.keymap.set('', 'n', 'h')
-vim.keymap.set('', 'e', 'j')
-vim.keymap.set('', 'i', 'k')
-vim.keymap.set('', 'o', 'l')
-vim.keymap.set('', 'l', 'i')
-vim.keymap.set('', 'h', 'n')
-vim.keymap.set('', 'h', 'N')
